@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D4CC1E128576F2C0078358E /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CC1E028576F2C0078358E /* ElementView.swift */; };
+		2D4CC1E328576F4F0078358E /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4CC1E228576F4F0078358E /* StartButtonView.swift */; };
 		2DBB97C828576E060019CDC8 /* ListTapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB97C728576E060019CDC8 /* ListTapApp.swift */; };
 		2DBB97CA28576E060019CDC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB97C928576E060019CDC8 /* ContentView.swift */; };
 		2DBB97CC28576E070019CDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBB97CB28576E070019CDC8 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4CC1E028576F2C0078358E /* ElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
+		2D4CC1E228576F4F0078358E /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		2DBB97C428576E060019CDC8 /* ListTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBB97C728576E060019CDC8 /* ListTapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTapApp.swift; sourceTree = "<group>"; };
 		2DBB97C928576E060019CDC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D4CC1E428576F6E0078358E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D4CC1E028576F2C0078358E /* ElementView.swift */,
+				2D4CC1E228576F4F0078358E /* StartButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D4CC1E528576F740078358E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2DBB97BB28576E060019CDC8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +71,8 @@
 		2DBB97C628576E060019CDC8 /* ListTap */ = {
 			isa = PBXGroup;
 			children = (
+				2D4CC1E528576F740078358E /* Model */,
+				2D4CC1E428576F6E0078358E /* Views */,
 				2DBB97C728576E060019CDC8 /* ListTapApp.swift */,
 				2DBB97C928576E060019CDC8 /* ContentView.swift */,
 				2DBB97CB28576E070019CDC8 /* Assets.xcassets */,
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DBB97CA28576E060019CDC8 /* ContentView.swift in Sources */,
+				2D4CC1E328576F4F0078358E /* StartButtonView.swift in Sources */,
+				2D4CC1E128576F2C0078358E /* ElementView.swift in Sources */,
 				2DBB97C828576E060019CDC8 /* ListTapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
